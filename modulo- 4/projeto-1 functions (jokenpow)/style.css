@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://source.unsplash.com/1320x728/?landscape");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 450px;
+    height: 500px;
+    padding: 30px;
+    background-color: rgba(211, 207, 207, 0.685);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+h1{
+    font-size: 60px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.jo{
+    color: yellow;
+}
+
+.ken{
+    color: black;
+}
+
+.po{
+    color: blue;
+}
+
+button{
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.buttons{
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+.rock{
+    background-color: rgba(247, 0, 255, 0.808)
+}
+.paper{
+    background-color: rgba(0, 163, 68, 0.473)
+}
+.scissors{
+    background-color: rgba(0, 153, 255, 0.623);
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.your-score span{
+    color: rgb(9, 91, 158);
+}
+.machine-score span{
+    color: rgb(180, 42, 0);
+}
